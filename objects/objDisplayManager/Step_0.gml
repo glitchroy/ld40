@@ -2,16 +2,19 @@
 
 // Click Dragging //
 if (mouse_check_button_pressed(mb_right)) {
-	mouseLastX = mouse_x;
-	mouseLastY = mouse_y;
+	mouseLastX = mouseGetX();
+	mouseLastY = mouseGetY();
 }
 
 if (mouse_check_button(mb_right)) {
 	
-	if (mouseLastX != mouse_x || mouseLastY != mouse_y) {
+	var mx = mouseGetX();
+	var my = mouseGetY();
+	
+	if (mouseLastX != mx || mouseLastY != my) {
 		//mouse moved
-		var deltaX = mouse_x - mouseLastX;
-		var deltaY = mouse_y - mouseLastY;
+		var deltaX = mx - mouseLastX;
+		var deltaY = my - mouseLastY;
 		
 		log("deltax: " + string(deltaX) + ", deltay: " + string(deltaY));
 		
@@ -34,6 +37,9 @@ if (mouse_check_button(mb_right)) {
 						  room_height - camera_get_view_height(view_camera[0]) + panMargin
 						  )
 					);
+
+			mouseLastX = mouseGetX();
+			mouseLastY = mouseGetY();
 		}
 		
 	}

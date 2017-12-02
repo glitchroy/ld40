@@ -5,6 +5,7 @@
 
 #macro layerTechnical "instanceTechnical"
 #macro layerEntities "instanceEntities"
+#macro layerPath "tilesPath"
 
 
 #macro tileSize 12

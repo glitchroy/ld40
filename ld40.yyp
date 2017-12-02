@@ -71,10 +71,42 @@
             }
         },
         {
+            "Key": "0a6c5ed3-a992-4747-ae36-9ad6dd050bf5",
+            "Value": {
+                "id": "5d7c1e38-409e-4713-b2f0-d61954c9e6d5",
+                "resourcePath": "scripts\\stateUnitEdit\\stateUnitEdit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0c9e072c-2b20-45e8-8756-bea0f71d90e2",
+            "Value": {
+                "id": "51d43888-00be-41c2-81b8-a102cdae9a79",
+                "resourcePath": "scripts\\mouseGetX\\mouseGetX.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0ce0f561-c928-429b-a52e-98be09e414bf",
+            "Value": {
+                "id": "6cb0808f-0bae-4d76-a9f8-d22cbd74c292",
+                "resourcePath": "scripts\\drawCone\\drawCone.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0d6c5958-2f11-487b-8278-fcfefcdc8aed",
             "Value": {
                 "id": "b8c8e11c-5aa5-4fce-af49-83bed0c225bb",
                 "resourcePath": "scripts\\log\\log.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0e98ca42-458a-423a-9d59-97a9a112f880",
+            "Value": {
+                "id": "4ff3d1ca-6901-4c55-bb46-3115d4c119c9",
+                "resourcePath": "scripts\\uiGetManager\\uiGetManager.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -95,11 +127,35 @@
             }
         },
         {
+            "Key": "15d0d6cf-f150-4c21-bd0b-3cf588cb94e8",
+            "Value": {
+                "id": "f04a29e3-0898-4c16-8938-1823de6745fa",
+                "resourcePath": "views\\15d0d6cf-f150-4c21-bd0b-3cf588cb94e8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1b4cbd17-c158-4500-8427-baf2f25cb0b1",
             "Value": {
                 "id": "f2155f24-a9b1-44b8-94b1-c63b964c1b31",
                 "resourcePath": "views\\1b4cbd17-c158-4500-8427-baf2f25cb0b1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "24505502-3cfe-4196-9378-93a95b7a0907",
+            "Value": {
+                "id": "c7b6a7e8-7e24-4582-9bdf-d074f2ebf97e",
+                "resourcePath": "scripts\\gameUnlockUnit\\gameUnlockUnit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "25a40b6d-e1a6-4f32-a7b0-4269a84144cf",
+            "Value": {
+                "id": "8b152de5-041e-48a2-8f63-72ef2f51947e",
+                "resourcePath": "scripts\\getUnitStats\\getUnitStats.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -247,6 +303,14 @@
             }
         },
         {
+            "Key": "8bcf59dc-4ce9-422a-b07c-225b3cacaaaf",
+            "Value": {
+                "id": "264b5755-dd63-49b6-9122-289b1f7b6766",
+                "resourcePath": "sprites\\sprTiles\\sprTiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "95f51284-b4b4-4439-9275-0fab3b3dbc11",
             "Value": {
                 "id": "75272321-5d92-4769-a619-d15641b5eb5c",
@@ -255,11 +319,35 @@
             }
         },
         {
+            "Key": "a4addb7e-5201-4cca-b75c-464e2d5c8eea",
+            "Value": {
+                "id": "c6e15f48-0cf3-431a-9176-69fc0b8086db",
+                "resourcePath": "tilesets\\tilesetTiles\\tilesetTiles.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "a5c5d534-8e44-4622-9172-701c2ae43ed7",
+            "Value": {
+                "id": "f7c394f5-93d6-476d-9ba1-112b4947fd78",
+                "resourcePath": "scripts\\stateGameWave\\stateGameWave.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "81cd490c-40ee-4a63-9ce5-d06589d2fa8d",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ac3339a9-f7b9-4139-8cf7-ccb1dbb8fb93",
+            "Value": {
+                "id": "dc99f4ac-ee5b-4a50-b4b1-9583847c3072",
+                "resourcePath": "views\\ac3339a9-f7b9-4139-8cf7-ccb1dbb8fb93.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -284,6 +372,30 @@
                 "id": "9f7f79bc-5266-443c-a3d4-1d281f5cfc82",
                 "resourcePath": "views\\b814cd7c-c29e-45cc-a43f-c79a528103bf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bc127312-4242-4af5-95e9-645fd63f00b7",
+            "Value": {
+                "id": "66a1d776-ce5e-4c01-bab3-45ddcee849f4",
+                "resourcePath": "objects\\objDummyUnit\\objDummyUnit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c1752d6e-828b-4178-a7b4-18ef41c4782e",
+            "Value": {
+                "id": "3f6ac6bc-6017-46bd-8936-fa65fc4eda99",
+                "resourcePath": "scripts\\mouseGetY\\mouseGetY.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c19bae70-8f6d-442e-bfb4-29d4c7746e05",
+            "Value": {
+                "id": "d7122171-177d-4ef0-8928-1b308e1128ec",
+                "resourcePath": "scripts\\stateUnitAttack\\stateUnitAttack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -351,6 +463,14 @@
             }
         },
         {
+            "Key": "de30e2f9-e11e-400b-b018-f87c799801a3",
+            "Value": {
+                "id": "7226645c-cebd-4105-a429-e170118c1a50",
+                "resourcePath": "sprites\\sprProjectileToast\\sprProjectileToast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e048d23f-03f5-46ae-a2d8-2cbacd68d749",
             "Value": {
                 "id": "99b873f7-8949-4b99-824b-2daf4d62708f",
@@ -380,6 +500,14 @@
                 "id": "f0b7bbff-36ec-42a1-947e-435f9ffbe16b",
                 "resourcePath": "views\\ea7131d0-4c2a-42ea-a1db-fefb2680989e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "eb771bf4-3da3-410a-a4f5-a0b31df7021d",
+            "Value": {
+                "id": "9aeaed93-1cd2-47d1-b444-c2fa2af16cc1",
+                "resourcePath": "scripts\\stateGameBuilding\\stateGameBuilding.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -429,8 +557,18 @@
         "590d52ec-769a-4769-9849-f65b481f9f3d",
         "fbd72975-7045-46e8-9642-4a48a924c44b",
         "729216ff-9b89-490a-a55f-0e73c10af66c",
+        "0c9e072c-2b20-45e8-8756-bea0f71d90e2",
+        "c1752d6e-828b-4178-a7b4-18ef41c4782e",
         "8447bffa-e941-4b35-a38e-60ac98bfa2f9",
-        "b51b67fd-bfc5-40da-b972-179bdc2c6551"
+        "24505502-3cfe-4196-9378-93a95b7a0907",
+        "b51b67fd-bfc5-40da-b972-179bdc2c6551",
+        "eb771bf4-3da3-410a-a4f5-a0b31df7021d",
+        "a5c5d534-8e44-4622-9172-701c2ae43ed7",
+        "0a6c5ed3-a992-4747-ae36-9ad6dd050bf5",
+        "c19bae70-8f6d-442e-bfb4-29d4c7746e05",
+        "25a40b6d-e1a6-4f32-a7b0-4269a84144cf",
+        "0e98ca42-458a-423a-9d59-97a9a112f880",
+        "0ce0f561-c928-429b-a52e-98be09e414bf"
     ],
     "tutorial": ""
 }

@@ -1,16 +1,19 @@
 windowScale = 3;
 windowScaleMax = 8;
 
-mouseLastX = mouse_x;
-mouseLastY = mouse_y;
+window_set_color(c_black);
 
-panMargin = 10;
+device = 0;
+mouseLastX = mouseGetX()
+mouseLastY = mouseGetY()
+
+panMargin = 24;
 
 camera = camera_create_view(0,
 							0,
 							nativeWidth,
 							nativeHeight)
-							
+
 view_set_camera(0, camera);
 
 

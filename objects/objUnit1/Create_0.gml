@@ -1,3 +1,8 @@
 inherit;
 
-tooltip = "Tester\nPower: 99\nSpeed: 99";
+canEditCone = true;
+
+projectileSprite = sprProjectileToast;
+attackSpeed = 2;
+attackDamage = 1;
+attackAmount = 3;

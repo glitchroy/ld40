@@ -1,8 +1,8 @@
 draw_set_color(c_black);
 draw_set_font(fontSmall);
 var s =
-	   "mx: " + string(mouse_x) +
-	   "\nmy: " + string(mouse_y) +
+	   "mx: " +   string(mouseGetX()) +
+	   "\nmy: " + string(mouseGetY()) +
 	   "\nmlastx: " + string(mouseLastX) +
 	   "\nmlasty:" + string(mouseLastY) +
 	   "\nscale: " + string(windowScale) +
