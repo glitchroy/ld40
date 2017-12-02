@@ -4,4 +4,8 @@ if (stateNew) {
 		stateSwitch("Attack");
 	}
 	
+	with (objEnemySpawner) {
+		alarm[0] = 1;
+	}
+	
 }

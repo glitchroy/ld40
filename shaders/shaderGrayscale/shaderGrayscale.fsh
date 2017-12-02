@@ -1,6 +1,7 @@
 //
 // Simple passthrough fragment shader
 //
+// shader by XorDev http://gmc.yoyogames.com/index.php?showtopic=596710
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
 void main()

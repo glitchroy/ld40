@@ -4,8 +4,11 @@
 #macro nativeHeight 135
 
 #macro layerTechnical "instanceTechnical"
-#macro layerEntities "instanceEntities"
+#macro layerUnits "instanceUnits"
 #macro layerPath "tilesPath"
-
+#macro layerProjectiles "instanceProjectiles"
+#macro layerDummyUnits "instanceDummyUnits"
+#macro layerEnemies "instanceEnemies"
+#macro layerLevel "instanceLevel"
 
 #macro tileSize 12

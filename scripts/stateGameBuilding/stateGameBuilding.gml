@@ -1,6 +1,4 @@
 if (stateNew) {
-	log("Building");
-	gameUnlockUnit(objUnit1);
 	stateVar[0] = noone; //dragging unit
 	wave++;
 	
@@ -20,11 +18,11 @@ if (mouse_check_button_pressed(mb_left)) {
 								   objDummyUnit);
 	if (checkDummy != noone) {
 		var stats = unitGetStats(checkDummy.unit);
-		if (gameGetMoney() >= stats[Unit.Cost]) {
-			stateVar[0] = instance_create_layer(mouseGetGuiX()-6,
-									mouseGetGuiY()-6,
-									layerEntities,
-									checkDummy.unit);
+
+		if (gameGetMoney() >= stats[UnitStat.Cost]) {
+			stateVar[0] = unitCreate(mouseGetGuiX()-6,
+									 mouseGetGuiY()-6,
+									 checkDummy.unit);
 		}
 	}
 }
@@ -68,11 +66,11 @@ if (mouse_check_button_released(mb_left)) {
 			stateVar[0].x += camera_get_view_x(view_camera[0]);
 			stateVar[0].y += camera_get_view_y(view_camera[0]);
 			
-			stateVar[0].depth = layer_get_depth(layerEntities) - stateVar[0].y;
+			stateVar[0].depth = layer_get_depth(layerUnits) - stateVar[0].y;
 			stateVar[0].placed = true;
 			
-			var stats = unitGetStats(stateVar[0].object_index);
-			gameAddMoney(-(stats[Unit.Cost]));
+			var stats = stateVar[0].stats;
+			gameAddMoney(-(stats[UnitStat.Cost]));
 			
 		} else {
 			//ILLEGAL PLACE

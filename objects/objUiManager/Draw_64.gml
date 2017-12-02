@@ -16,10 +16,10 @@ if (unitHovering != noone) {
 	draw_set_font(fontSmall);
 	draw_set_color(c_white);
 	
-	var tooltip = stats[Unit.Name] + 
-				  "(" + string(stats[Unit.Cost]) + ")" +
+	var tooltip = stats[UnitStat.Name] + 
+				  "(" + string(stats[UnitStat.Cost]) + ")" +
 				  "\r" +
-				  stats[Unit.Tooltip];
+				  stats[UnitStat.Tooltip];
 	
 	draw_text_ext(
 		tx - 22,

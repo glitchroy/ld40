@@ -9,17 +9,17 @@ if (array_length_1d(unlocked) > 0) {
 		var unit = unlocked[i];
 		
 		if (unit != noone) {
-			var unitX = unitSelectorX+unitSelectorPadding*i;
-			var unitY = unitSelectorY;
-			
+			var unitX = unitSelectorX+(tileSize+unitSelectorPadding)*i;
+
 			// Create Instance
 			var dummy = instance_create_layer(unitX,
-											  unitY,
-											  layerEntities,
+											  unitSelectorY,
+											  layerDummyUnits,
 											  objDummyUnit);
 
 			dummy.unit = unit;
-			dummy.sprite_index = object_get_sprite(unit);
+			dummy.stats = unitGetStats(unit);
+			dummy.sprite_index = dummy.stats[UnitStat.Sprite];
 		}
 	}
 }
