@@ -1,3 +1,8 @@
+
+if (!canBuy) {
+	shader_set(shaderGrayscale);
+}
+
 draw_sprite_ext(sprite_index,
 				image_index,
 				x-scale/2,
@@ -7,3 +12,5 @@ draw_sprite_ext(sprite_index,
 				image_angle,
 				image_blend,
 				image_alpha);
+				
+shader_reset();

@@ -7,7 +7,9 @@
         "fbd72975-7045-46e8-9642-4a48a924c44b",
         "729216ff-9b89-490a-a55f-0e73c10af66c",
         "0c9e072c-2b20-45e8-8756-bea0f71d90e2",
-        "c1752d6e-828b-4178-a7b4-18ef41c4782e"
+        "c1752d6e-828b-4178-a7b4-18ef41c4782e",
+        "af29b722-8b02-40eb-b810-8ef0fcef4abc",
+        "50a65495-a2d9-4338-a6e5-f17abbb62eae"
     ],
     "filterType": "GMScript",
     "folderName": "Display",

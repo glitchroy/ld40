@@ -154,7 +154,7 @@
             "Key": "25a40b6d-e1a6-4f32-a7b0-4269a84144cf",
             "Value": {
                 "id": "8b152de5-041e-48a2-8f63-72ef2f51947e",
-                "resourcePath": "scripts\\getUnitStats\\getUnitStats.yy",
+                "resourcePath": "scripts\\unitGetStats\\unitGetStats.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "486971bc-6b53-428a-b45d-c621dd9142ec",
+            "Value": {
+                "id": "792e1593-d8ee-4598-be0d-b73f065e408a",
+                "resourcePath": "scripts\\gameAddMoney\\gameAddMoney.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "48a76ca1-8db2-438f-a783-645d52e28878",
             "Value": {
                 "id": "b65312e5-8397-4eae-b097-1c4b9330f763",
@@ -203,6 +211,30 @@
             "Value": {
                 "id": "630593da-37b2-4115-9cf4-37da20815eaf",
                 "resourcePath": "scripts\\stateExecute\\stateExecute.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "50a65495-a2d9-4338-a6e5-f17abbb62eae",
+            "Value": {
+                "id": "ff8d6ce6-5cda-4815-81a9-bf053530c2bb",
+                "resourcePath": "scripts\\mouseGetGuiY\\mouseGetGuiY.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "52dc4489-3338-4c84-9078-0b05a24623c9",
+            "Value": {
+                "id": "de3f986d-b524-41b7-9bfb-5e1c58e2dd47",
+                "resourcePath": "views\\52dc4489-3338-4c84-9078-0b05a24623c9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "543a07d2-6d35-4356-ae49-282bc3b2edc1",
+            "Value": {
+                "id": "607f5b1d-c9ce-46b6-9765-f9b65bcca57a",
+                "resourcePath": "scripts\\gameGetState\\gameGetState.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -228,6 +260,14 @@
                 "id": "482c0821-1048-409d-8114-858baef911bc",
                 "resourcePath": "scripts\\stateSwitch\\stateSwitch.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5b54a8bb-3014-4cab-821d-fc25cb8f3620",
+            "Value": {
+                "id": "167563aa-262e-460f-b502-93086a47062b",
+                "resourcePath": "shaders\\shaderGrayscale\\shaderGrayscale.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -327,6 +367,14 @@
             }
         },
         {
+            "Key": "a598f39a-8654-47e0-b80f-a220c8686888",
+            "Value": {
+                "id": "1948a142-c061-4c5c-addf-b672856a7921",
+                "resourcePath": "scripts\\gameGetMoney\\gameGetMoney.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a5c5d534-8e44-4622-9172-701c2ae43ed7",
             "Value": {
                 "id": "f7c394f5-93d6-476d-9ba1-112b4947fd78",
@@ -348,6 +396,14 @@
                 "id": "dc99f4ac-ee5b-4a50-b4b1-9583847c3072",
                 "resourcePath": "views\\ac3339a9-f7b9-4139-8cf7-ccb1dbb8fb93.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "af29b722-8b02-40eb-b810-8ef0fcef4abc",
+            "Value": {
+                "id": "ea3c8af2-6860-488f-b6c1-cc49e023a45d",
+                "resourcePath": "scripts\\mouseGetGuiX\\mouseGetGuiX.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -559,16 +615,21 @@
         "729216ff-9b89-490a-a55f-0e73c10af66c",
         "0c9e072c-2b20-45e8-8756-bea0f71d90e2",
         "c1752d6e-828b-4178-a7b4-18ef41c4782e",
-        "8447bffa-e941-4b35-a38e-60ac98bfa2f9",
-        "24505502-3cfe-4196-9378-93a95b7a0907",
-        "b51b67fd-bfc5-40da-b972-179bdc2c6551",
+        "af29b722-8b02-40eb-b810-8ef0fcef4abc",
+        "50a65495-a2d9-4338-a6e5-f17abbb62eae",
         "eb771bf4-3da3-410a-a4f5-a0b31df7021d",
         "a5c5d534-8e44-4622-9172-701c2ae43ed7",
         "0a6c5ed3-a992-4747-ae36-9ad6dd050bf5",
         "c19bae70-8f6d-442e-bfb4-29d4c7746e05",
         "25a40b6d-e1a6-4f32-a7b0-4269a84144cf",
         "0e98ca42-458a-423a-9d59-97a9a112f880",
-        "0ce0f561-c928-429b-a52e-98be09e414bf"
+        "0ce0f561-c928-429b-a52e-98be09e414bf",
+        "8447bffa-e941-4b35-a38e-60ac98bfa2f9",
+        "24505502-3cfe-4196-9378-93a95b7a0907",
+        "b51b67fd-bfc5-40da-b972-179bdc2c6551",
+        "543a07d2-6d35-4356-ae49-282bc3b2edc1",
+        "a598f39a-8654-47e0-b80f-a220c8686888",
+        "486971bc-6b53-428a-b45d-c621dd9142ec"
     ],
     "tutorial": ""
 }

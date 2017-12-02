@@ -1,8 +1,8 @@
 {
-    "id": "25a40b6d-e1a6-4f32-a7b0-4269a84144cf",
+    "id": "a598f39a-8654-47e0-b80f-a220c8686888",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "getUnitStats",
+    "name": "gameGetMoney",
     "IsCompatibility": false,
     "IsDnD": false
 }
