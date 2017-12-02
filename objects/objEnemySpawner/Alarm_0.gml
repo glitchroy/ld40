@@ -1,5 +1,5 @@
 if (nextSpawn != undefined && nextSpawn != noone) {
-	instance_create_layer(x, y, layerEnemies, nextSpawn);
+	instance_create_layer(x+6, y+6, layerEnemies, nextSpawn);
 	nextSpawn = noone;
 }
 

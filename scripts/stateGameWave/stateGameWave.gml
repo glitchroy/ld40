@@ -9,3 +9,7 @@ if (stateNew) {
 	}
 	
 }
+
+if (hp <= 0) {
+	stateSwitch("GameOver");
+}

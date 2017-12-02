@@ -1,6 +1,8 @@
 windowScale = 3;
 windowScaleMax = 8;
 
+allowSubpixels = true;
+
 window_set_color(c_black);
 
 device = 0;
@@ -33,6 +35,8 @@ display_set_gui_size(windowWidth/windowScale,
 						windowHeight/windowScale);
 	
 //Set AppSurface to window size 1:1 for subpixels
-surface_resize(application_surface,
-	            windowWidth,
-				windowHeight);
+if (allowSubpixels) {
+	surface_resize(application_surface,
+		            windowWidth,
+					windowHeight);
+}

@@ -207,6 +207,22 @@
             }
         },
         {
+            "Key": "40c770d5-680f-4b33-8774-6f0acd668b6e",
+            "Value": {
+                "id": "bba38cf4-a903-4c3e-92e4-50aa713a9f58",
+                "resourcePath": "scripts\\stateGameGameOver\\stateGameGameOver.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "42933666-8738-4a16-a888-673a4bb74609",
+            "Value": {
+                "id": "bf0db9e3-bd6e-4808-adc4-63796eca0e57",
+                "resourcePath": "scripts\\gameAddHealth\\gameAddHealth.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4637f80b-f9a3-445f-9c90-e78c3ff5b028",
             "Value": {
                 "id": "4ef93da0-b24f-45dc-8c11-dfbf170079ad",
@@ -717,6 +733,7 @@
         "a5c5d534-8e44-4622-9172-701c2ae43ed7",
         "0a6c5ed3-a992-4747-ae36-9ad6dd050bf5",
         "c19bae70-8f6d-442e-bfb4-29d4c7746e05",
+        "40c770d5-680f-4b33-8774-6f0acd668b6e",
         "0e98ca42-458a-423a-9d59-97a9a112f880",
         "0ce0f561-c928-429b-a52e-98be09e414bf",
         "8447bffa-e941-4b35-a38e-60ac98bfa2f9",
@@ -725,6 +742,7 @@
         "543a07d2-6d35-4356-ae49-282bc3b2edc1",
         "a598f39a-8654-47e0-b80f-a220c8686888",
         "486971bc-6b53-428a-b45d-c621dd9142ec",
+        "42933666-8738-4a16-a888-673a4bb74609",
         "6a5d0ef2-0255-423b-acd2-5fe4fd75d68c",
         "25a40b6d-e1a6-4f32-a7b0-4269a84144cf",
         "9fc61d80-5dfc-43da-a687-bff93bc6abbd"

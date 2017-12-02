@@ -71,7 +71,9 @@ if (keyboard_check_pressed(ord("Z"))) {
 						 windowHeight/windowScale);
 	
 	//Set AppSurface to window size 1:1 for subpixels
-	surface_resize(application_surface,
-	               windowWidth,
-				   windowHeight);
+	if (allowSubpixels) {
+		surface_resize(application_surface,
+			            windowWidth,
+						windowHeight);
+	}
 }

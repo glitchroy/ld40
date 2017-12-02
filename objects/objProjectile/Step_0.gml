@@ -7,3 +7,11 @@ if (spd > 0) {
 		instance_destroy();
 	}
 }
+
+var enemyCheck = instance_place(x, y, objEnemy);
+if (enemyCheck != noone) {
+	with (enemyCheck) {
+		hp--;
+	}
+	instance_destroy();
+}

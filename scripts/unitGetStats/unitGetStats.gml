@@ -11,7 +11,8 @@ enum UnitStat {
 	ConeLength,
 	ConeWidth,
 	ConeEditable,
-	AimAutomatic
+	AimAutomatic,
+	AimAutoActivate
 }
 
 enum Unit {
@@ -26,13 +27,15 @@ switch (argument0) {
 	case Unit.Toaster: 
 		return ["Toaster", "\nPower: 99\nSpeed: 99", 15,
 				sprUnitToaster, sprProjectileToast,
-				[0.8, 1.2], [1, 1], [1, 1], [40, 75],
-				tileSize*4, 45, true, false]; break;
+				[0.8, 1.2], [1, 2], [1, 1], [40, 75],
+				tileSize*4, 45, true, false,
+				false]; break;
 	case Unit.Microwave: 
 		return ["Microwave", "\nPower: 99\nSpeed: 99", 30,
 				sprUnitMicrowave, sprProjectileSpark,
 				[2, 3], [1, 1], [1, 4], [20, 35],
-				tileSize*2, 360, false, false]; break;
+				tileSize*2, 360, false, false,
+				true]; break;
 }
 
 return -1;

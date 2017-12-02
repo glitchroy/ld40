@@ -1,9 +1,16 @@
 if (stateNew) {
 	stateVar[0] = noone; //dragging unit
+	hp = 100;
 	wave++;
+	
+	instance_destroy(objEnemy);
 	
 	with (objUnit) {
 		stateSwitch("Edit");
+	}
+	
+	with (objEnemySpawner) {
+		alarm[0] = -1;
 	}
 }
 
