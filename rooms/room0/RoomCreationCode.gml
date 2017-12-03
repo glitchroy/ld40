@@ -1,2 +1,3 @@
 gameUnlockUnit(Unit.Toaster);
-gameUnlockUnit(Unit.Microwave);
+gameUnlockUnit(Unit.WashingMachine);
+gameUnlockUnit(Unit.Oven);

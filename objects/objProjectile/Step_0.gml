@@ -12,6 +12,7 @@ var enemyCheck = instance_place(x, y, objEnemy);
 if (enemyCheck != noone) {
 	with (enemyCheck) {
 		hp--;
+		damageFlashTimer = damageFlashTimerMax;
 	}
 	instance_destroy();
 }

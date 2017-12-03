@@ -1,0 +1,2 @@
+
+return gameGet().wave;

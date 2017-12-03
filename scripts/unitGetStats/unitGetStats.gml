@@ -12,30 +12,43 @@ enum UnitStat {
 	ConeWidth,
 	ConeEditable,
 	AimAutomatic,
-	AimAutoActivate
+	AimAutoActivate,
+	AimRandomly
 }
 
 enum Unit {
 	Toaster,
+	WashingMachine,
 	Microwave,
-	Mixer,
 	Oven,
 	Fridge
 }
 
 switch (argument0) {
 	case Unit.Toaster: 
-		return ["Toaster", "\nPower: 99\nSpeed: 99", 15,
+		return ["Toaster",
+				"\nFires toast\nat ants.\nSPD: Slow\nDMG:\nA bit\nCOOLDOWN:\nMedium",
+				15,
 				sprUnitToaster, sprProjectileToast,
 				[0.8, 1.2], [1, 2], [1, 1], [40, 75],
 				tileSize*4, 45, true, false,
-				false]; break;
-	case Unit.Microwave: 
-		return ["Microwave", "\nPower: 99\nSpeed: 99", 30,
-				sprUnitMicrowave, sprProjectileSpark,
-				[2, 3], [1, 1], [1, 4], [20, 35],
+				false, true]; break;
+	case Unit.WashingMachine: 
+		return ["Washer",
+				"\nRandomly splashes\nwater.\nSPD: Fast\nDMG: Not\nmuch\nCOOLDOWN:\nFast",
+				30,
+				sprUnitWashingMachine, sprProjectileWater,
+				[2, 3], [1, 1], [1, 4], [15, 30],
 				tileSize*2, 360, false, false,
-				true]; break;
+				true, true]; break;
+	case Unit.Oven: 
+		return ["Oven",
+				"\nPower: 99\nSpeed: 99",
+				50,
+				sprUnitOven, sprProjectileFire,
+				[1, 1], [2, 4], [8, 8], [150, 200],
+				tileSize*3, 360, false, false,
+				true, false]; break;
 }
 
 return -1;

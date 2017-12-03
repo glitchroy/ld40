@@ -14,3 +14,4 @@ draw_sprite_ext(sprite_index,
 				image_alpha);
 				
 shader_reset();
+

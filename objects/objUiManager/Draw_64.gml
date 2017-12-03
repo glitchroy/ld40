@@ -7,7 +7,7 @@ var unlocked = gameGetUnlocked();
 if (unitHovering != noone) {
 	
 	var tx = unitHovering.x + 6;
-	var ty = unitHovering.y + 6;
+	var ty = unitHovering.y - 8;
 	
 	draw_sprite(sprHudTooltip, -1, tx, ty);
 	
@@ -17,7 +17,7 @@ if (unitHovering != noone) {
 	draw_set_color(c_white);
 	
 	var tooltip = stats[UnitStat.Name] + 
-				  "(" + string(stats[UnitStat.Cost]) + ")" +
+				  " (" + string(stats[UnitStat.Cost]) + ")" +
 				  "\r" +
 				  stats[UnitStat.Tooltip];
 	
@@ -27,5 +27,15 @@ if (unitHovering != noone) {
 		tooltip, 10, -1);
 
 }
+
+#endregion
+
+#region Draw Information
+
+draw_set_font(fontBig);
+draw_set_color($251418);
+
+var str = "Wave " + string_format(gameGetWave(), 2, 0) + " | Health: " + string(gameGetHealth());
+draw_text(7, 1, str);
 
 #endregion

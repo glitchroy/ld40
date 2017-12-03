@@ -1,3 +1,4 @@
+//Draw Hover image when placing
 if (!placed) {
 	draw_sprite_ext(sprite_index,
 					image_index,

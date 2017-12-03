@@ -9,7 +9,7 @@ device = 0;
 mouseLastX = mouseGetX()
 mouseLastY = mouseGetY()
 
-panMargin = 24;
+panMargin = 36;
 
 camera = camera_create_view(0,
 							0,

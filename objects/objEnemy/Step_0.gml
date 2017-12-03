@@ -4,6 +4,17 @@ if (hp <= 0) {
 }
 #endregion
 
+#region Damage Flash
+
+if (damageFlashTimer > 0) {
+	damageFlash = true;
+	damageFlashTimer--;
+} else {
+	damageFlash = false;
+}
+
+#endregion
+
 #region Movement
 if (spd > 0) {
 	x += lengthdir_x(spd, dir);

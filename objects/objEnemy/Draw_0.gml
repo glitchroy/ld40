@@ -1,3 +1,9 @@
+if (damageFlash) {
+	image_blend = $6666FF;
+} else {
+	image_blend = c_white;
+}
+
 draw_self();
 
 draw_healthbar(x-6, y+4, x+6, y+5, (hp/maxHp)*100,

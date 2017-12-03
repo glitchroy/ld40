@@ -1,6 +1,6 @@
 if (stateNew) {
 	stateVar[0] = noone; //dragging unit
-	hp = 100;
+	hp = clamp(hp+50, 0, 100);
 	wave++;
 	
 	instance_destroy(objEnemy);
@@ -11,6 +11,10 @@ if (stateNew) {
 	
 	with (objEnemySpawner) {
 		alarm[0] = -1;
+	}
+	
+	with (uiGetManager()) {
+		buttonSetActivate(buttonWave, true);
 	}
 }
 
@@ -87,3 +91,8 @@ if (mouse_check_button_released(mb_left)) {
 	}
 }
 #endregion
+
+
+if (keyboard_check_pressed(vk_space)) {
+	stateSwitch("Wave");
+}

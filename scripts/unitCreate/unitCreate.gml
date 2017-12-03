@@ -25,6 +25,7 @@ if (st != -1) {
 		canEditCone		 = st[UnitStat.ConeEditable];
 		aimAuto			 = st[UnitStat.AimAutomatic];
 		aimAutoActivate	 = st[UnitStat.AimAutoActivate];
+		aimRandomly		 = st[UnitStat.AimRandomly];
 	}
 	
 	return u;

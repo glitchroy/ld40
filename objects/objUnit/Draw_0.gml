@@ -1,11 +1,5 @@
-//Draw Sprite
-if (placed) {
-	draw_self();
-}
-
 //Draw Cone
 if (placed) {
-
 	draw_set_color(c_lime);
 	if (stateName == "Attack") draw_set_color(c_red);
 	draw_set_alpha(0.33);
@@ -23,4 +17,9 @@ if (placed) {
 			coneWidth);
 	}
 	draw_set_alpha(1);
+}
+
+//Draw Sprite
+if (placed) {
+	draw_self();
 }

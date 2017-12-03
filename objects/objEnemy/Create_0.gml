@@ -8,6 +8,10 @@ enum Direction {
 maxHp = 1;
 hp = 1;
 
+damageFlash = false;
+damageFlashTimer = 0;
+damageFlashTimerMax = 10;
+
 damage = 1;
 
 dir = Direction.Down;

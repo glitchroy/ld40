@@ -1,0 +1,3 @@
+with (gameGet()) {
+	stateSwitch("Wave");
+}

@@ -5,4 +5,4 @@ var s =
 	   "\nwave: " + string(wave) + 
 	   "\nmoney: " + string(money) +
 	   "\nhealth: " + string(hp);
-draw_text(2, 2, s);
+draw_text(2, 16, s);
