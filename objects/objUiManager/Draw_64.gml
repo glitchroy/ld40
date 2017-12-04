@@ -13,7 +13,7 @@ if (unitHovering != noone) {
 	
 	draw_sprite(sprHudTooltip, -1, tx, ty);
 	
-	draw_sprite(sprTooltipArrow, -1, unitHovering.x, unitHovering.y-14);
+	draw_sprite(sprTooltipArrow, -1, unitHovering.x+2, unitHovering.y-14);
 	
 	var stats = unitGetStats(unitHovering.unit);
 	

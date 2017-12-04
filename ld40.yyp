@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "3b6881b8-894f-4f14-b601-7d391e3bc9ed",
+            "Value": {
+                "id": "2615eb24-a4c6-4704-bcde-0b35e719bbc1",
+                "resourcePath": "sprites\\sprEnemyLadybug\\sprEnemyLadybug.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3ebb370f-b1a7-4a2a-b845-af376c9f487a",
             "Value": {
                 "id": "bde01b56-91e5-4e2d-8786-98193f54c393",
@@ -507,6 +515,14 @@
             "Value": {
                 "id": "f0ea85cb-ca50-4743-b700-da7755dcfc55",
                 "resourcePath": "objects\\objGameManager\\objGameManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "69fe9f67-dccc-4ded-a625-11d567116840",
+            "Value": {
+                "id": "2c29c19e-e2c5-4425-9164-44de8da94987",
+                "resourcePath": "objects\\objEnemyLadybug\\objEnemyLadybug.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -922,7 +938,7 @@
             "Key": "ddf0cd98-e919-40c5-b71e-26e6b6ecb4a7",
             "Value": {
                 "id": "9bc60658-02d5-4bda-bc13-a3e091128b24",
-                "resourcePath": "sprites\\sprEnemy1\\sprEnemy1.yy",
+                "resourcePath": "sprites\\sprEnemyNormal\\sprEnemyNormal.yy",
                 "resourceType": "GMSprite"
             }
         },

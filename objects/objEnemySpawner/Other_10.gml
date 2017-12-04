@@ -7,7 +7,7 @@ var wave = gameGetWave();
 switch (wave) {
 	case 1:
 	ds_queue_enqueue(currentWave,
-				[1,   objEnemyNormal],
+				[1,   objEnemyLadybug],
 				[60,  objEnemyNormal],
 				[60,  objEnemyNormal],
 				[120, objEnemyNormal],
