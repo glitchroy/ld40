@@ -506,7 +506,7 @@
             "Key": "6c6caffb-8441-41f6-a356-c4d8e586d149",
             "Value": {
                 "id": "e290da2b-808e-4a6c-9c99-42443af00b7e",
-                "resourcePath": "objects\\objEnemy1\\objEnemy1.yy",
+                "resourcePath": "objects\\objEnemyNormal\\objEnemyNormal.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -603,6 +603,14 @@
             "Value": {
                 "id": "75272321-5d92-4769-a619-d15641b5eb5c",
                 "resourcePath": "sprites\\sprHudTooltip\\sprHudTooltip.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "976ffe8e-0874-424f-bda3-1ed0b54db3f2",
+            "Value": {
+                "id": "2f43a229-18a9-4a0e-b6ad-d4bf727e047e",
+                "resourcePath": "sprites\\sprTooltipArrow\\sprTooltipArrow.yy",
                 "resourceType": "GMSprite"
             }
         },

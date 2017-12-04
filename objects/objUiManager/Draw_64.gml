@@ -8,10 +8,12 @@ var unlocked = gameGetUnlocked();
 
 if (unitHovering != noone) {
 	
-	var tx = unitHovering.x + 6;
-	var ty = unitHovering.y - 8;
+	var tx = 2;
+	var ty = 79;
 	
 	draw_sprite(sprHudTooltip, -1, tx, ty);
+	
+	draw_sprite(sprTooltipArrow, -1, unitHovering.x, unitHovering.y-14);
 	
 	var stats = unitGetStats(unitHovering.unit);
 	
@@ -19,13 +21,12 @@ if (unitHovering != noone) {
 	draw_set_color(c_white);
 	
 	var tooltip = stats[UnitStat.Name] + 
-				  " (" + string(stats[UnitStat.Cost]) + ")" +
-				  "\r" +
+				  " (Price: " + string(stats[UnitStat.Cost]) + ") - " +
 				  stats[UnitStat.Tooltip];
 	
 	draw_text_ext(
-		tx - 22,
-		ty - sprite_get_yoffset(sprHudTooltip),
+		tx + 4,
+		ty,
 		tooltip, 10, -1);
 
 }

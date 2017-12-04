@@ -9,6 +9,8 @@ maxHp = 1;
 hp = 1;
 
 freezing = false;
+freezeTimer = 0;
+freezeTimerMax = 160;
 
 damageFlash = false;
 damageFlashTimer = 0;

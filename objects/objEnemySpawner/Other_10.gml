@@ -7,43 +7,43 @@ var wave = gameGetWave();
 switch (wave) {
 	case 1:
 	ds_queue_enqueue(currentWave,
-				[1,   objEnemy1],
-				[60,  objEnemy1],
-				[60,  objEnemy1],
-				[120, objEnemy1],
-				[30,  objEnemy1],
-				[30,  objEnemy1],
-				[30,  objEnemy1],
-				[30,  objEnemy1],
-				[60,  objEnemy1],
-				[60,  objEnemy1],
-				[120, objEnemy1],
-				[30,  objEnemy1],
-				[30,  objEnemy1],
-				[30,  objEnemy1]
+				[1,   objEnemyNormal],
+				[60,  objEnemyNormal],
+				[60,  objEnemyNormal],
+				[120, objEnemyNormal],
+				[30,  objEnemyNormal],
+				[30,  objEnemyNormal],
+				[30,  objEnemyNormal],
+				[30,  objEnemyNormal],
+				[60,  objEnemyNormal],
+				[60,  objEnemyNormal],
+				[120, objEnemyNormal],
+				[30,  objEnemyNormal],
+				[30,  objEnemyNormal],
+				[30,  objEnemyNormal]
 				);
 	break;
 	case 2:
 	ds_queue_enqueue(currentWave,
-				[1,   objEnemy1],
-				[1,  objEnemy1],
-				[1,  objEnemy1],
-				[1, objEnemy1],
-				[1,  objEnemy1],
-				[1,  objEnemy1],
-				[1,  objEnemy1],
-				[1,  objEnemy1],
-				[1,  objEnemy1],
-				[1,  objEnemy1],
-				[1, objEnemy1],
-				[1,  objEnemy1],
-				[1,  objEnemy1],
-				[1,  objEnemy1]
+				[1,   objEnemyNormal],
+				[1,  objEnemyNormal],
+				[1,  objEnemyNormal],
+				[1, objEnemyNormal],
+				[1,  objEnemyNormal],
+				[1,  objEnemyNormal],
+				[1,  objEnemyNormal],
+				[1,  objEnemyNormal],
+				[1,  objEnemyNormal],
+				[1,  objEnemyNormal],
+				[1, objEnemyNormal],
+				[1,  objEnemyNormal],
+				[1,  objEnemyNormal],
+				[1,  objEnemyNormal]
 				);
 	break;
 	default:
 	ds_queue_enqueue(currentWave,
-				[1,   objEnemy1]
+				[1,   objEnemyNormal]
 				);
 	break;
 }

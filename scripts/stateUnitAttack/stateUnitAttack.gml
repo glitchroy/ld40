@@ -20,21 +20,41 @@ if (projectileSprite != -1) {
 			var nearestEnemy = instance_nearest(x+6, y+6, objEnemy);
 			
 			if (nearestEnemy != noone) {
-				if (point_distance(
-						x+6, y+6,
-						nearestEnemy.x,
-						nearestEnemy.y) <= coneLength*activationRadiusScale) {
-					
-					shouldFire = true;
-					
+				
+				var dist = point_distance(
+							x+6, y+6,
+							nearestEnemy.x,
+							nearestEnemy.y);
+				
+				if (coneWidth >= 360) {
+					//circle units
+					if (dist <= coneLength*activationRadiusScale) {
+						shouldFire = true;
+					} else {
+						stateVar[0] = 5; //redo
+					}
 				} else {
-					stateVar[0] = 5;
+					//sight cone
+					//calc if enemy is inside cone, too
+					var ang = point_direction(x+6, y+6, nearestEnemy.x, nearestEnemy.y);
+					
+					var leftAngle = (coneDirection-coneWidth/2) mod 360;
+					var rightAngle = (coneDirection+coneWidth/2) mod 360;
+					
+					var leftCheck = abs(angle_difference(leftAngle, ang));
+					var rightCheck = abs(angle_difference(rightAngle, ang));
+					
+					
+					if (leftCheck+rightCheck <= coneWidth) {
+							shouldFire = true;
+					} else {
+						stateVar[0] = 5; //redo
+					}
 				}
+				
+				
 			}
 		}
-		
-		var t = shouldFire ? "true" : "false";
-		log("should fire? " + t);
 		
 		//ATTACK
 		if (shouldFire) {

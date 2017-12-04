@@ -19,6 +19,10 @@ if (enemyCheck != noone) {
 		damageFlashTimer = damageFlashTimerMax;
 		if (hasFreeze) {
 			freezing = true;
+			
+			if (freezeTimer <= 0) {
+				freezeTimer = freezeTimerMax;
+			}
 		}
 	}
 

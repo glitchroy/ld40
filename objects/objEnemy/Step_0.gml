@@ -15,6 +15,15 @@ if (damageFlashTimer > 0) {
 
 #endregion
 
+#region Freeze Check
+if (freezeTimer > 0) {
+	freezeTimer--;
+	if (freezeTimer == 0) {
+		freezing = false;
+	}
+}
+#endregion
+
 #region Movement
 if (spd > 0) {
 	var realSpd = spd;

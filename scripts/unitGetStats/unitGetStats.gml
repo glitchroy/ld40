@@ -29,15 +29,15 @@ enum Unit {
 switch (argument0) {
 	case Unit.Toaster: 
 		return ["Toaster",
-				"\nFires toast\nat ants.\nSPD: Slow\nDMG:\nA bit\nCOOLDOWN:\nMedium",
+				"Spits out pieces of toast.\nSPD: Slow, DMG: A bit, COOLDOWN: Medium",
 				15,
 				sprUnitToaster, sprProjectileToast,
-				[1.4, 2.0], [20, 25], [1, 1], [40, 75],
+				[1.4, 2.0], [20, 25], [1, 1], [25, 35],
 				tileSize*4, 45, true, false,
 				false, true, false, false]; break;
 	case Unit.WashingMachine: 
-		return ["Washr",
-				"\nRandomly\nsplashes.\nSPD: Fast\nDMG: Not\nmuch\nCOOLDOWN:\nFast",
+		return ["Washer",
+				"Randomly splashes water.\nSPD: Fast, DMG: Not much, COOLDOWN: Fast",
 				30,
 				sprUnitWashingMachine, sprProjectileWater,
 				[2, 3], [10, 15], [1, 4], [15, 30],
@@ -45,7 +45,7 @@ switch (argument0) {
 				true, true, false, false]; break;
 	case Unit.Oven: 
 		return ["Oven",
-				"\nBig radius,\nall around.\nSPD: Slow\nDMG: Fair\nbit\nCOOLDOWN:\nSlow",
+				"Big radius, all around.\nSPD: Slow, DMG: Lots, COOLDOWN: Slow",
 				50,
 				sprUnitOven, sprProjectileFire,
 				[1, 1], [30, 40], [8, 8], [150, 200],
@@ -53,19 +53,19 @@ switch (argument0) {
 				true, false, false, false]; break;
 	case Unit.Fridge: 
 		return ["Fridge",
-				"\nSlows ants down.\nSPD: Fast\nDMG: None\nCOOLDOWN:\nNone",
+				"Slows ants down.\nSPD: Very Fast, DMG: None, COOLDOWN: None",
 				75,
 				sprUnitFridge, sprProjectileFrost,
 				[2, 2.5], [0, 0], [4, 6], [5, 5],
 				tileSize*4, 90, true, false,
-				true, true, true, true]; break;
+				false, true, true, true]; break;
 	case Unit.Microwave: 
-		return ["Mcrwav",
-				"\nAims rays\nat ants.\nSPD: V. Fast\nDMG: Little\nCOOLDOWN:\nFast",
+		return ["Microwave",
+				"Aims rays at ants.\nSPD: Fast, DMG: Little, COOLDOWN: Very Fast",
 				75,
 				sprUnitMicrowave, sprProjectileRay,
-				[3, 3.5], [2, 3], [1, 1], [13, 15],
+				[3, 3.5], [3, 4], [1, 1], [9, 13],
 				tileSize*2.5, 360, false, true,
-				true, false, false, true]; break;
+				true, false, false, false]; break;
 }
 return -1;

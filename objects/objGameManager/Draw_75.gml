@@ -8,5 +8,5 @@ var s =
 draw_text(2, 16, s);*/
 
 if (stateName == "Info") {
-	draw_sprite(sprInfoMsg, -1, 0, 0);
+	draw_sprite(sprInfoMsg, 0, 0, 0);
 }
