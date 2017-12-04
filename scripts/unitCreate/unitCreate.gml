@@ -28,6 +28,7 @@ if (st != -1) {
 		aimRandomly		 = st[UnitStat.AimRandomly];
 		hasFreezeEffect  = st[UnitStat.FreezeEffect];
 		hasPiercingEffect= st[UnitStat.PiercingEffect];
+		event_user(0); //shader outline
 	}
 	
 	return u;

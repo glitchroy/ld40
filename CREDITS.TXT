@@ -13,6 +13,8 @@ Graphics
 ============
 EDG32 Palette by ENDESGA
 
+Outline Shader by DekeDev
+
 
 ============
 Music

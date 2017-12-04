@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0883d75b-d23f-404e-b3be-99389b9fee10",
+            "Value": {
+                "id": "d1c23c71-93db-4f2c-80ca-01420d5d79de",
+                "resourcePath": "tilesets\\tilesetBackground\\tilesetBackground.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "08d85c5c-602d-4a4e-8e97-952b4122d1cd",
             "Value": {
                 "id": "e4a9e781-7b00-4522-8462-356e7407d1ac",
@@ -211,6 +219,14 @@
             "Value": {
                 "id": "7872f241-3c4a-4a56-937f-2aabb6265e78",
                 "resourcePath": "sprites\\titleBG\\titleBG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "21ea3823-d811-4316-8de0-65ccf4347c84",
+            "Value": {
+                "id": "4fd064b9-66ce-4999-8c45-3b26dca2eab0",
+                "resourcePath": "sprites\\sprTilesBG\\sprTilesBG.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -596,6 +612,14 @@
                 "id": "3c60f23c-65b6-4f47-baac-81ee373da667",
                 "resourcePath": "objects\\objProjectile\\objProjectile.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9572c6f4-54ed-4659-9b9c-3c0041f9ab26",
+            "Value": {
+                "id": "7ce57172-5292-4f84-9d76-efe068167315",
+                "resourcePath": "shaders\\shaderOutline\\shaderOutline.yy",
+                "resourceType": "GMShader"
             }
         },
         {

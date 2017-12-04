@@ -21,5 +21,15 @@ if (placed) {
 
 //Draw Sprite
 if (placed) {
+	
+	if (instance_position(mouseGetX(), mouseGetY(), object_index) == id) {
+		//my boy is hovering
+		shader_set(shaderOutline);
+		shader_set_uniform_f(upixelW, texelW);
+		shader_set_uniform_f(upixelH, texelH);
+	}
+	
 	draw_self();
+	
+	shader_reset();
 }
