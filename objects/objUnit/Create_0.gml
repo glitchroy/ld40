@@ -14,6 +14,8 @@ attackDamage = [1, 1]; //Damage per attack
 attackAmount = [1, 1]; //Variance in Attacks
 attackInterval = [1, 1]; //Pause between attacks
 
+hasFreezeEffect = false;
+
 activationRadiusScale = 1.2;
 
 coneLength = tileSize*4;

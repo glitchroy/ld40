@@ -8,11 +8,28 @@ if (spd > 0) {
 	}
 }
 
+
+var damage = dmg;
+var hasFreeze = freeze;
+
 var enemyCheck = instance_place(x, y, objEnemy);
 if (enemyCheck != noone) {
 	with (enemyCheck) {
-		hp--;
+		hp-=damage;
 		damageFlashTimer = damageFlashTimerMax;
+		if (hasFreeze) {
+			freezing = true;
+		}
 	}
-	instance_destroy();
+	
+	//don't destroy on enemies that
+	//already are freezing if i'm
+	//particle that has freezing ability
+	if (hasFreeze) {
+		if (enemyCheck.freezing == false) {
+			instance_destroy();
+		}
+	} else {
+		instance_destroy();
+	}
 }

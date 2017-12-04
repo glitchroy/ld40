@@ -1,4 +1,4 @@
-///@function projectileCreate(x, y, sprite, direction, speed, range, damage)
+///@function projectileCreate(x, y, sprite, direction, speed, range, damage, hasFreezeEffect)
 ///@param x
 ///@param y
 ///@param sprite
@@ -14,3 +14,5 @@ p.range = argument5;
 p.dmg = argument6;
 
 p.spd = argument4;
+
+p.freeze = argument7;

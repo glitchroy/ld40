@@ -1,7 +1,11 @@
-if (damageFlash) {
+if (damageFlash && !freezing) {
 	image_blend = $6666FF;
 } else {
 	image_blend = c_white;
+}
+
+if (freezing) {
+	image_blend = c_aqua;
 }
 
 draw_self();

@@ -17,8 +17,11 @@ if (damageFlashTimer > 0) {
 
 #region Movement
 if (spd > 0) {
-	x += lengthdir_x(spd, dir);
-	y += lengthdir_y(spd, dir);
+	var realSpd = spd;
+	if (freezing) realSpd = spd/2;
+	
+	x += lengthdir_x(realSpd, dir);
+	y += lengthdir_y(realSpd, dir);
 }
 
 var xx = x;

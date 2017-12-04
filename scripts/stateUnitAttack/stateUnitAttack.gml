@@ -50,7 +50,8 @@ if (projectileSprite != -1) {
 										 random_range(coneDirection-coneWidth/2, coneDirection+coneWidth/2),
 										 random_range(attackSpeed[0], attackSpeed[1]),
 										 coneLength,
-										 irandom_range(attackDamage[0], attackDamage[1]));
+										 irandom_range(attackDamage[0], attackDamage[1]),
+										 hasFreezeEffect);
 					}
 				} else {
 					//aim predictably
@@ -64,7 +65,8 @@ if (projectileSprite != -1) {
 										 i,
 										 random_range(attackSpeed[0], attackSpeed[1]),
 										 coneLength,
-										 irandom_range(attackDamage[0], attackDamage[1]));
+										 irandom_range(attackDamage[0], attackDamage[1]),
+										 hasFreezeEffect);
 					}
 				}
 			}

@@ -8,6 +8,8 @@ enum Direction {
 maxHp = 1;
 hp = 1;
 
+freezing = false;
+
 damageFlash = false;
 damageFlashTimer = 0;
 damageFlashTimerMax = 10;

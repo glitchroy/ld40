@@ -26,6 +26,7 @@ if (st != -1) {
 		aimAuto			 = st[UnitStat.AimAutomatic];
 		aimAutoActivate	 = st[UnitStat.AimAutoActivate];
 		aimRandomly		 = st[UnitStat.AimRandomly];
+		hasFreezeEffect  = st[UnitStat.FreezeEffect];
 	}
 	
 	return u;

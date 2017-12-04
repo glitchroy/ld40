@@ -538,7 +538,7 @@
             "Key": "9daa290d-22f1-400d-9282-2821c00e93eb",
             "Value": {
                 "id": "0f48c87f-52de-4fa4-ab74-2c6583fc6db9",
-                "resourcePath": "sprites\\sprFridge\\sprFridge.yy",
+                "resourcePath": "sprites\\sprUnitFridge\\sprUnitFridge.yy",
                 "resourceType": "GMSprite"
             }
         },
