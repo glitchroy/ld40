@@ -21,15 +21,8 @@ if (enemyCheck != noone) {
 			freezing = true;
 		}
 	}
-	
-	//don't destroy on enemies that
-	//already are freezing if i'm
-	//particle that has freezing ability
-	if (hasFreeze) {
-		if (enemyCheck.freezing == false) {
-			instance_destroy();
-		}
-	} else {
+
+	if (!piercing) {
 		instance_destroy();
 	}
 }

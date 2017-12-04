@@ -12,7 +12,7 @@ freezing = false;
 
 damageFlash = false;
 damageFlashTimer = 0;
-damageFlashTimerMax = 10;
+damageFlashTimerMax = 6;
 
 damage = 1;
 

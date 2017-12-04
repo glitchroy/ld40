@@ -15,6 +15,7 @@ attackAmount = [1, 1]; //Variance in Attacks
 attackInterval = [1, 1]; //Pause between attacks
 
 hasFreezeEffect = false;
+hasPiercingEffect = false;
 
 activationRadiusScale = 1.2;
 

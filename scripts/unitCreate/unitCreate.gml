@@ -27,6 +27,7 @@ if (st != -1) {
 		aimAutoActivate	 = st[UnitStat.AimAutoActivate];
 		aimRandomly		 = st[UnitStat.AimRandomly];
 		hasFreezeEffect  = st[UnitStat.FreezeEffect];
+		hasPiercingEffect= st[UnitStat.PiercingEffect];
 	}
 	
 	return u;

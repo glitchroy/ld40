@@ -1,3 +1,9 @@
+if (gameGetState() == "Info") {
+	hovering = false;
+	pressed = false;
+	exit;
+}
+
 if (activated == false) {
 	hovering = false;
 	pressed = false;
@@ -25,5 +31,6 @@ if (hovering && pressed) {
 
 if (waitingForRelease && hovering && mouse_check_button_released(mb_left)) {
 	script_execute(callback);
+	audio_play_sound(sndButton, 1, false);
 	waitingForRelease = false;
 }

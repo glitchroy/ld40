@@ -1,4 +1,7 @@
 if (stateNew) {
+	audio_stop_sound(sndBuildMode);
+	audio_play_sound(sndAntMarch, 1, true);
+	
 	
 	with (objUnit) {
 		stateSwitch("Attack");

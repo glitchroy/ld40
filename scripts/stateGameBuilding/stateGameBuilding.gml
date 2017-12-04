@@ -1,4 +1,9 @@
 if (stateNew) {
+	audio_stop_sound(sndAntMarch);
+	if (audio_is_playing(sndBuildMode) == false) {
+		audio_play_sound(sndBuildMode, 1, true);
+	}
+	
 	stateVar[0] = noone; //dragging unit
 	hp = clamp(hp+50, 0, 100);
 	wave++;
@@ -31,6 +36,7 @@ if (mouse_check_button_pressed(mb_left)) {
 		var stats = unitGetStats(checkDummy.unit);
 
 		if (gameGetMoney() >= stats[UnitStat.Cost]) {
+			audio_play_sound(sndSelect, 1, false);
 			stateVar[0] = unitCreate(mouseGetGuiX()-6,
 									 mouseGetGuiY()-6,
 									 checkDummy.unit);
@@ -82,6 +88,8 @@ if (mouse_check_button_released(mb_left)) {
 			
 			var stats = stateVar[0].stats;
 			gameAddMoney(-(stats[UnitStat.Cost]));
+			
+			audio_play_sound(sndPlaced, 1, false);
 			
 		} else {
 			//ILLEGAL PLACE

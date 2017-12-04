@@ -14,7 +14,7 @@ if (projectileSprite != -1) {
 		
 		
 		var shouldFire = true;
-		if (aimAutoActivate) {
+		if (aimAutoActivate || aimAuto) {
 			shouldFire = false;
 
 			var nearestEnemy = instance_nearest(x+6, y+6, objEnemy);
@@ -39,7 +39,24 @@ if (projectileSprite != -1) {
 		//ATTACK
 		if (shouldFire) {
 			if (aimAuto) {
-		
+				//auto aim
+				var nearestEnemy = instance_nearest(x+6, y+6, objEnemy);
+				var dir = 0;
+				if (nearestEnemy != noone) {
+					dir = point_direction(x+6, y+6, nearestEnemy.x, nearestEnemy.y);
+				}
+				
+				
+				repeat (irandom_range(attackAmount[0], attackAmount[1])) {
+					projectileCreate(x+6, y+6,
+										projectileSprite,
+										dir,
+										random_range(attackSpeed[0], attackSpeed[1]),
+										coneLength,
+										irandom_range(attackDamage[0], attackDamage[1]),
+										hasFreezeEffect,
+										hasPiercingEffect);
+				}
 			} else {
 				//regular or random aim
 				if (aimRandomly) {
@@ -51,7 +68,8 @@ if (projectileSprite != -1) {
 										 random_range(attackSpeed[0], attackSpeed[1]),
 										 coneLength,
 										 irandom_range(attackDamage[0], attackDamage[1]),
-										 hasFreezeEffect);
+										 hasFreezeEffect,
+										 hasPiercingEffect);
 					}
 				} else {
 					//aim predictably
@@ -66,7 +84,8 @@ if (projectileSprite != -1) {
 										 random_range(attackSpeed[0], attackSpeed[1]),
 										 coneLength,
 										 irandom_range(attackDamage[0], attackDamage[1]),
-										 hasFreezeEffect);
+										 hasFreezeEffect,
+										 hasPiercingEffect);
 					}
 				}
 			}

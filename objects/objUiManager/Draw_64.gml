@@ -1,3 +1,5 @@
+if (room == roomTitle) exit;
+
 draw_sprite(sprHudBase, -1, 0, 0);
 
 var unlocked = gameGetUnlocked();
@@ -33,9 +35,11 @@ if (unitHovering != noone) {
 #region Draw Information
 
 draw_set_font(fontBig);
-draw_set_color($251418);
+draw_set_color($442B26);
 
-var str = "Wave " + string_format(gameGetWave(), 2, 0) + " | Health: " + string(gameGetHealth());
+var str = "Wave " + string_format(gameGetWave(), 2, 0) +
+		  " | Money: " + string_format(gameGetMoney(), 3, 0) + 
+		  " | Health: " + string(gameGetHealth());
 draw_text(7, 1, str);
 
 #endregion

@@ -7,3 +7,4 @@ dmg = 0;
 distance = 0;
 
 freeze = false;
+piercing = false;

@@ -1,15 +1,19 @@
 instance_create_layer(0, 0, layerTechnical, objDisplayManager);
-instance_create_layer(0, 0, layerTechnical, objUiManager);
 
 roomTilemap = -1;
 
 unlocked = [];
-money = 100;
+money = 500;
 wave = 0;
 hp = 100;
 
+titleTimer = 0;
+
 stateMachineInit();
+
+stateCreate("Title", stateGameTitle);
+stateCreate("Info", stateGameInfo);
 stateCreate("Building", stateGameBuilding);
 stateCreate("Wave", stateGameWave);
 stateCreate("GameOver", stateGameGameOver);
-stateInit("Building");
+stateInit("Title");

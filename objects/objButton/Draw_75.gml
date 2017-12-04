@@ -1,4 +1,4 @@
-if (activated == false) {
+if (activated == false || gameGetState() = "Info") {
 	shader_set(shaderGrayscale);
 }
 
