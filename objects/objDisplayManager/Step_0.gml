@@ -49,8 +49,19 @@ if (state != "Title") {
 	}
 }
 
+#region Shake
+	if (shake > 0) {
+		shake--;
+		var shakeX = irandom_range(-shake/2,shake/2);
+		var shakeY = irandom_range(-shake/2,shake/2);
+		var cx = camera_get_view_x(view_camera[0]);
+		var cy = camera_get_view_y(view_camera[0]);
+		camera_set_view_pos(view_camera[0], cx+shakeX, cy+shakeY);
+	}
+#endregion
+
 // Zooming Window //
-if (keyboard_check_pressed(ord("Z"))) {
+if (keyboard_check_pressed(ord("M"))) {
 	//Update windowScale
 	windowScale++;
 	if (windowScale > windowScaleMax) {

@@ -6,5 +6,7 @@ if (keyboard_check_pressed(ord("R"))) {
 
 //end wave
 if (keyboard_check_pressed(ord("D"))) {
-	stateSwitch("Building");
+	if (stateName == "Wave") {
+		stateSwitch("Building");
+	}
 }

@@ -11,6 +11,7 @@
 #macro layerEnemies "instanceEnemies"
 #macro layerLevel "instanceLevel"
 #macro layerExplosions "instanceExplosions"
+#macro layerTaboo "tilesTaboo"
 
 #macro tileSize 12
 

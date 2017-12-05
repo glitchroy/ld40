@@ -73,15 +73,50 @@ switch (wave) {
 				[20,  ant]
 				);
 	break;
-	
-	
+	case 6:
+	ds_queue_enqueue(currentWave,
+				[30, spider],
+				[30, spider],
+				[30, spider],
+				[30, spider],
+				[30, spider],
+				[10, spider],
+				[10, spider],
+				[10, spider],
+				[10, spider],
+				[10, spider],
+				[30, lb]
+				);
+	break;
+	case 7:
+	ds_queue_enqueue(currentWave,
+				[30, ant],
+				[15, ant],
+				[15, ant],
+				[130, lb],
+				[10, spider],
+				[20, spider],
+				[30, spider],
+				[100, lb],
+				[15, ant],
+				[15, ant],
+				[30, ant],
+				[100, ant],
+				[30, lb]
+				);
+	break;
 	
 	
 	
 	default:
-	ds_queue_enqueue(currentWave,
-				[1,   objEnemyNormal]
-				);
+	repeat(irandom_range(10+wave/2,30+wave)) {
+		var timeMin = irandom_range(10, max(10,100-wave/2));
+		var timeMax = irandom_range(30, min(300,10+wave*2));
+		
+		var en = choose(ant, ant, ant, ant, spider, ant, lb, spider);
+		var ti = irandom_range(timeMin, timeMax);
+		ds_queue_enqueue(currentWave, [ti, en]);
+	}
 	break;
 }
 

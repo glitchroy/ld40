@@ -55,6 +55,7 @@ if (mouse_check_button(mb_left)) {
 		stateVar[0].y = mouseGetGuiY()-6;
 		//check if placing is possible
 		var tilemap = roomTilemap;
+		var tilemapTaboo = tabooTilemap;
 		var cx = camera_get_view_x(view_camera[0]);
 		var cy = camera_get_view_y(view_camera[0]);
 		
@@ -66,9 +67,15 @@ if (mouse_check_button(mb_left)) {
 				tilemap_get_at_pixel(tilemap, bbox_left+cx, bbox_bottom+cy) ||
 				tilemap_get_at_pixel(tilemap, bbox_right+cx, bbox_bottom+cy)
 				
+			var colTaboo =
+				tilemap_get_at_pixel(tilemapTaboo, bbox_left+cx, bbox_top+cy) ||
+				tilemap_get_at_pixel(tilemapTaboo, bbox_right+cx, bbox_top+cy) ||
+				tilemap_get_at_pixel(tilemapTaboo, bbox_left+cx, bbox_bottom+cy) ||
+				tilemap_get_at_pixel(tilemapTaboo, bbox_right+cx, bbox_bottom+cy)
+				
 			var colUnits = place_meeting(x+cx, y+cy, objUnit);
 				
-			if (!colPath && !colUnits) {
+			if (!colPath && !colUnits && !colTaboo) {
 					placePossible = true;
 				} else {
 					placePossible = false;

@@ -5,6 +5,8 @@ allowSubpixels = true;
 
 window_set_color(c_black);
 
+shake = 0;
+
 device = 0;
 mouseLastX = mouseGetX()
 mouseLastY = mouseGetY()

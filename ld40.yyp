@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "1e4c6066-974d-405e-a1bd-da6e44f60ae8",
+            "Value": {
+                "id": "b9e660f0-13e8-4857-a59e-78cdf5f4866c",
+                "resourcePath": "sprites\\sprPlacing\\sprPlacing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2038762c-121d-42ff-abcf-f48a268a7a46",
             "Value": {
                 "id": "7872f241-3c4a-4a56-937f-2aabb6265e78",
@@ -863,6 +871,14 @@
             }
         },
         {
+            "Key": "c1380723-bef9-40c0-9e0f-e2040adf42eb",
+            "Value": {
+                "id": "58876ad6-04d4-4a85-b892-6ffdc623f06e",
+                "resourcePath": "scripts\\displayShakeScreen\\displayShakeScreen.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c1752d6e-828b-4178-a7b4-18ef41c4782e",
             "Value": {
                 "id": "3f6ac6bc-6017-46bd-8936-fa65fc4eda99",
@@ -1182,6 +1198,7 @@
         "3ebb370f-b1a7-4a2a-b845-af376c9f487a",
         "f77037f1-8d19-45a4-86d2-59422967a04f",
         "d6eed121-bb1e-4676-b3b5-65a952fe0be8",
+        "c1380723-bef9-40c0-9e0f-e2040adf42eb",
         "6a5d0ef2-0255-423b-acd2-5fe4fd75d68c",
         "25a40b6d-e1a6-4f32-a7b0-4269a84144cf",
         "9fc61d80-5dfc-43da-a687-bff93bc6abbd",
