@@ -10,3 +10,7 @@ draw_text(2, 16, s);*/
 if (stateName == "Info") {
 	draw_sprite(sprInfoMsg, 0, 0, 0);
 }
+
+if (stateName == "Win") {
+	draw_sprite(sprInfoWin, 0, 0, 0);
+}

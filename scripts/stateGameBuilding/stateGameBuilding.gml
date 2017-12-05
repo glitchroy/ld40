@@ -12,6 +12,10 @@ if (stateNew) {
 	
 	wave++;
 	
+	if (global.won == false && wave == 25) {
+		stateSwitch("Win");
+	}
+	
 	instance_destroy(objEnemy);
 	
 	with (objUnit) {

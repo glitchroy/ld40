@@ -8,6 +8,8 @@ money = 0;
 wave = 0;
 hp = 100;
 
+global.won = false;
+
 titleTimer = 0;
 
 stateMachineInit();
@@ -17,4 +19,5 @@ stateCreate("Info", stateGameInfo);
 stateCreate("Building", stateGameBuilding);
 stateCreate("Wave", stateGameWave);
 stateCreate("GameOver", stateGameGameOver);
+stateCreate("Win", stateGameWin);
 stateInit("Title");
