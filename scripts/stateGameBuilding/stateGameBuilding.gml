@@ -3,9 +3,10 @@ if (stateNew) {
 	if (audio_is_playing(sndBuildMode) == false) {
 		audio_play_sound(sndBuildMode, 1, true);
 	}
-	global.speedMode = false;
 	stateVar[0] = noone; //dragging unit
-	hp = clamp(hp+15, 0, 100);
+	//hp = clamp(hp+15, 0, 100);
+	
+	global.speedMode = false;
 	
 	gameAwardMoney(wave);
 	

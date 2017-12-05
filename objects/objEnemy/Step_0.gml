@@ -30,6 +30,8 @@ if (spd > 0) {
 	var realSpd = spd;
 	if (freezing) realSpd = spd/2;
 	
+	if (global.speedMode) realSpd *= 5;
+	
 	x += lengthdir_x(realSpd, dir);
 	y += lengthdir_y(realSpd, dir);
 }

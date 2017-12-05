@@ -18,6 +18,12 @@ if (hp <= 0) {
 	stateSwitch("GameOver");
 }
 
+if (keyboard_check(vk_control)) {
+	global.speedMode = true;
+} else {
+	global.speedMode = false;
+}
+
 var waveOver = false;
 with (objEnemySpawner) {
 	if (ds_queue_empty(currentWave) &&
