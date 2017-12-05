@@ -13,3 +13,5 @@
 #macro layerExplosions "instanceExplosions"
 
 #macro tileSize 12
+
+global.speedMode = false;

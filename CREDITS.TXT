@@ -15,6 +15,9 @@ EDG32 Palette by ENDESGA
 
 Outline Shader by DekeDev
 
+Draw Circle Width Script by tehwave
+
+Grayscale Shader by XorDev
 
 ============
 Music

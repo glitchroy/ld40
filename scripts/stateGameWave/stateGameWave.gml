@@ -2,7 +2,6 @@ if (stateNew) {
 	audio_stop_sound(sndBuildMode);
 	audio_play_sound(sndAntMarch, 1, true);
 	
-	
 	with (objUnit) {
 		stateSwitch("Attack");
 	}
@@ -12,6 +11,7 @@ if (stateNew) {
 	with (uiGetManager()) {
 		buttonSetActivate(buttonWave, false);
 	}
+
 }
 
 if (hp <= 0) {
