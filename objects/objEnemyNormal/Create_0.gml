@@ -1,8 +1,8 @@
 inherit;
 
-spd = 0.5;
+spd = 0.4;
 
-maxHp = 100;
-hp = 100;
+maxHp = 80;
+hp = 80;
 
 damage = 5;

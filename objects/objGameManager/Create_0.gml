@@ -3,7 +3,7 @@ instance_create_layer(0, 0, layerTechnical, objDisplayManager);
 roomTilemap = -1;
 
 unlocked = [];
-money = 500;
+money = 0;
 wave = 0;
 hp = 100;
 

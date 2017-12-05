@@ -32,6 +32,7 @@ if (mouse_check_button_pressed(mb_any)) {
 		if (instance_position(mouseGetX(), mouseGetY(), objUnit) == id) {
 			gameAddMoney(stats[UnitStat.Cost]/2);
 			instance_destroy(id);
+			explosionCreate(x, y);
 		}
 	}
 	

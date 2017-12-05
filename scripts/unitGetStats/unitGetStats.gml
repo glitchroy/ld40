@@ -30,7 +30,7 @@ switch (argument0) {
 	case Unit.Toaster: 
 		return ["Toaster",
 				"Spits out pieces of toast.\nSPD: Slow, DMG: A bit, COOLDOWN: Medium",
-				15,
+				25,
 				sprUnitToaster, sprProjectileToast,
 				[1.4, 2.0], [20, 25], [1, 1], [25, 35],
 				tileSize*4, 45, true, false,
@@ -46,7 +46,7 @@ switch (argument0) {
 	case Unit.Oven: 
 		return ["Oven",
 				"Big radius, all around.\nSPD: Slow, DMG: Lots, COOLDOWN: Slow",
-				50,
+				60,
 				sprUnitOven, sprProjectileFire,
 				[1, 1], [30, 40], [8, 8], [150, 200],
 				tileSize*3, 360, false, false,
@@ -62,7 +62,7 @@ switch (argument0) {
 	case Unit.Microwave: 
 		return ["Microwave",
 				"Aims rays at ants.\nSPD: Fast, DMG: Little, COOLDOWN: Very Fast",
-				75,
+				85,
 				sprUnitMicrowave, sprProjectileRay,
 				[3, 3.5], [3, 4], [1, 1], [9, 13],
 				tileSize*2.5, 360, false, true,

@@ -20,6 +20,7 @@ if (array_length_1d(unlocked) > 0) {
 			dummy.unit = unit;
 			dummy.stats = unitGetStats(unit);
 			dummy.sprite_index = dummy.stats[UnitStat.Sprite];
+			with (dummy) event_user(0);
 		}
 	}
 }

@@ -10,5 +10,6 @@
 #macro layerDummyUnits "instanceDummyUnits"
 #macro layerEnemies "instanceEnemies"
 #macro layerLevel "instanceLevel"
+#macro layerExplosions "instanceExplosions"
 
 #macro tileSize 12

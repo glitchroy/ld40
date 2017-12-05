@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "06bfe2c6-cab9-4b7e-b7a1-1857f9113591",
+            "Value": {
+                "id": "1b9dfd13-9d58-4be6-8cd4-a5c94e99a60d",
+                "resourcePath": "sprites\\sprEnemySpider\\sprEnemySpider.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "074a52a9-9acc-4c58-afb6-cc740669c80a",
             "Value": {
                 "id": "1a803206-7dae-419a-b598-049c70289f1f",
@@ -375,6 +383,14 @@
             }
         },
         {
+            "Key": "48786a6b-ba17-4ee5-9220-7db470c7596b",
+            "Value": {
+                "id": "47f4e9ae-fcea-46ce-b0e4-eec6438d5928",
+                "resourcePath": "extensions\\Draw_Circle_Width\\Draw_Circle_Width.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
             "Key": "48a76ca1-8db2-438f-a783-645d52e28878",
             "Value": {
                 "id": "b65312e5-8397-4eae-b097-1c4b9330f763",
@@ -511,6 +527,14 @@
             }
         },
         {
+            "Key": "66a97860-0ae2-4a35-85d5-6c5910456bea",
+            "Value": {
+                "id": "6b239832-521f-4caf-ac0e-f93d76a2c3a5",
+                "resourcePath": "sprites\\sprExplosion\\sprExplosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "67420b25-f2de-4356-9599-0c0b294d5d6d",
             "Value": {
                 "id": "f0ea85cb-ca50-4743-b700-da7755dcfc55",
@@ -519,11 +543,27 @@
             }
         },
         {
+            "Key": "6890990a-1f8a-497c-b206-a7e96449558c",
+            "Value": {
+                "id": "65c42be5-bb0d-436f-b973-3073e2be43f1",
+                "resourcePath": "shaders\\shaderOutlineRed\\shaderOutlineRed.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "69fe9f67-dccc-4ded-a625-11d567116840",
             "Value": {
                 "id": "2c29c19e-e2c5-4425-9164-44de8da94987",
-                "resourcePath": "objects\\objEnemyLadybug\\objEnemyLadybug.yy",
+                "resourcePath": "objects\\objEnemySpider\\objEnemySpider.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6a54ef6f-1248-4561-bba3-8026d28a8848",
+            "Value": {
+                "id": "fa46adc5-f0a9-4c23-8066-d577396fa425",
+                "resourcePath": "notes\\compatibility_report_051217_04301431.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -607,11 +647,27 @@
             }
         },
         {
+            "Key": "86b28e92-cc41-4f23-9080-74db17d65d95",
+            "Value": {
+                "id": "529df3b2-fb24-4e8a-adef-7a9fd8a4022a",
+                "resourcePath": "objects\\objEnemyLadybug\\objEnemyLadybug.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8a77f2a1-a06c-4be3-af50-2ec8228e1402",
             "Value": {
                 "id": "c6572087-5419-4ba0-9b3f-5cbe68e3cbde",
                 "resourcePath": "fonts\\fontSmall\\fontSmall.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "8b34037e-f73b-475d-b5ed-b2948466e9dd",
+            "Value": {
+                "id": "3667ee7d-458a-404a-a875-a9609d2c01a0",
+                "resourcePath": "shaders\\shaderOutlineGreen\\shaderOutlineGreen.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -791,6 +847,14 @@
             }
         },
         {
+            "Key": "bd75010c-6e57-48e6-9a2b-503fa3efe276",
+            "Value": {
+                "id": "064fc848-c0f3-4953-95bc-caf1b9024c50",
+                "resourcePath": "scripts\\drawCircleWidth\\drawCircleWidth.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c1752d6e-828b-4178-a7b4-18ef41c4782e",
             "Value": {
                 "id": "3f6ac6bc-6017-46bd-8936-fa65fc4eda99",
@@ -804,6 +868,14 @@
                 "id": "d7122171-177d-4ef0-8928-1b308e1128ec",
                 "resourcePath": "scripts\\stateUnitAttack\\stateUnitAttack.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c42f838d-aa18-48d2-9207-83c79ab52a98",
+            "Value": {
+                "id": "b1a11de6-0d99-4a7b-96ef-39e02b363b1c",
+                "resourcePath": "objects\\objExplosion\\objExplosion.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -903,6 +975,14 @@
             }
         },
         {
+            "Key": "d6eed121-bb1e-4676-b3b5-65a952fe0be8",
+            "Value": {
+                "id": "dcda3c79-c94d-4519-80b4-ce20e630cdf4",
+                "resourcePath": "scripts\\gameAwardMoney\\gameAwardMoney.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dba6386d-1a8f-42b7-925c-f50e405e5897",
             "Value": {
                 "id": "9c6ca183-e771-4a28-9c59-e3a66b091f83",
@@ -975,6 +1055,14 @@
             }
         },
         {
+            "Key": "e525cfe5-e83d-416b-851f-5896ef5439cc",
+            "Value": {
+                "id": "63bd4e11-e1d2-471d-bcf1-201be8a3b7b9",
+                "resourcePath": "sounds\\sndGetMoney\\sndGetMoney.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ea7131d0-4c2a-42ea-a1db-fefb2680989e",
             "Value": {
                 "id": "f0b7bbff-36ec-42a1-947e-435f9ffbe16b",
@@ -987,6 +1075,14 @@
             "Value": {
                 "id": "9aeaed93-1cd2-47d1-b444-c2fa2af16cc1",
                 "resourcePath": "scripts\\stateGameBuilding\\stateGameBuilding.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f2e94b48-c1c9-4de3-9758-fd138a9b5c93",
+            "Value": {
+                "id": "3551cb7b-e604-493a-beac-dbc709eb5670",
+                "resourcePath": "scripts\\explosionCreate\\explosionCreate.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1077,11 +1173,14 @@
         "4f0974de-0b31-4510-9c28-e75ffba4d732",
         "3ebb370f-b1a7-4a2a-b845-af376c9f487a",
         "f77037f1-8d19-45a4-86d2-59422967a04f",
+        "d6eed121-bb1e-4676-b3b5-65a952fe0be8",
         "6a5d0ef2-0255-423b-acd2-5fe4fd75d68c",
         "25a40b6d-e1a6-4f32-a7b0-4269a84144cf",
         "9fc61d80-5dfc-43da-a687-bff93bc6abbd",
         "2efb5533-32cc-4159-afe1-484ceba33852",
-        "dcb2a5f8-f98a-4b56-954f-7de1b707c4e5"
+        "dcb2a5f8-f98a-4b56-954f-7de1b707c4e5",
+        "f2e94b48-c1c9-4de3-9758-fd138a9b5c93",
+        "bd75010c-6e57-48e6-9a2b-503fa3efe276"
     ],
     "tutorial": ""
 }

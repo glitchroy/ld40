@@ -10,7 +10,7 @@ if (freezing) {
 
 draw_self();
 gpu_set_fog(false, c_black, 0, 0);
-draw_healthbar(x-6, y+4, x+6, y+5, (hp/maxHp)*100,
+draw_healthbar(x-6, y+8, x+6, y+5, (hp/maxHp)*100,
 			   c_black, c_red, c_green, 0, true, true)
 			   
 /*

@@ -1,6 +1,7 @@
 #region Health Check
 if (hp <= 0) {
 	instance_destroy();
+	explosionCreate(x-6, y-6);
 }
 #endregion
 

@@ -1,0 +1,8 @@
+Resource name collision 'draw_circle_width' already exists, renamed to 'draw_circle_width_scripts'
+Converting GML script: ${project_dir}\scripts\draw_circle_width_scripts\draw_circle_width_scripts.gml
+Converted description /// @description draw_circle_width(x, y, radius, outline width, level of detail)/// @function draw_circle_width
+/// @param x
+/// @param  y
+/// @param  radius
+/// @param  outline width
+/// @param  level of detail

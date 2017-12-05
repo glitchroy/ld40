@@ -5,7 +5,10 @@ if (stateNew) {
 	}
 	
 	stateVar[0] = noone; //dragging unit
-	hp = clamp(hp+50, 0, 100);
+	hp = clamp(hp+20, 0, 100);
+	
+	gameAwardMoney(wave);
+	
 	wave++;
 	
 	instance_destroy(objEnemy);

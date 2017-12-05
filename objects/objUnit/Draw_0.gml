@@ -1,3 +1,4 @@
+
 //Draw Cone
 if (placed) {
 	draw_set_color(c_lime);
@@ -6,7 +7,7 @@ if (placed) {
 
 	if (coneWidth == 360) {
 		//circle
-		draw_circle(x+6, y+6, coneLength, false);
+		drawCircleWidth(x+6, y+6, coneLength, 3, 24*displayGetScale());
 		
 	} else {
 		//cone
@@ -22,7 +23,7 @@ if (placed) {
 //Draw Sprite
 if (placed) {
 	
-	if (instance_position(mouseGetX(), mouseGetY(), object_index) == id) {
+	if (stateName == "Edit" && instance_position(mouseGetX(), mouseGetY(), object_index) == id) {
 		//my boy is hovering
 		shader_set(shaderOutline);
 		shader_set_uniform_f(upixelW, texelW);

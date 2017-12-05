@@ -24,7 +24,6 @@ with (objEnemySpawner) {
 		instance_exists(objEnemy) == false) {
 		
 		waveOver = true;
-		
 	}
 }
 

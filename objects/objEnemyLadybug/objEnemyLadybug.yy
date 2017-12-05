@@ -1,18 +1,18 @@
 {
-    "id": "69fe9f67-dccc-4ded-a625-11d567116840",
+    "id": "86b28e92-cc41-4f23-9080-74db17d65d95",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "objEnemyLadybug",
     "eventList": [
         {
-            "id": "99bb25c7-17c0-45a3-b261-b16dab15f64e",
+            "id": "bf206640-2d28-4c24-b510-730f84733351",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "69fe9f67-dccc-4ded-a625-11d567116840"
+            "m_owner": "86b28e92-cc41-4f23-9080-74db17d65d95"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
